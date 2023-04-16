@@ -1,0 +1,21 @@
+2023-04-16T02:44:36.878-05:00  INFO 14024 --- [main] com.cinestar.CineStarApplication         : Starting CineStarApplication using Java 17.0.6 with PID 14024 (C:\Users\BAUYES\Desktop\CineStar\target\classes started by BAUYES in C:\Users\BAUYES\Desktop\CineStar)
+2023-04-16T02:44:36.882-05:00  INFO 14024 --- [main] com.cinestar.CineStarApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-16T02:44:37.667-05:00  INFO 14024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-16T02:44:37.700-05:00  INFO 14024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2023-04-16T02:44:38.403-05:00  INFO 14024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-16T02:44:38.426-05:00  INFO 14024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-16T02:44:38.429-05:00  INFO 14024 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-16T02:44:38.579-05:00  INFO 14024 --- [main] o.a.c.c.C.[.[localhost].[/cinestar]      : Initializing Spring embedded WebApplicationContext
+2023-04-16T02:44:38.580-05:00  INFO 14024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1630 ms
+2023-04-16T02:44:38.738-05:00  INFO 14024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-16T02:44:38.919-05:00  INFO 14024 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@679d0be8
+2023-04-16T02:44:38.921-05:00  INFO 14024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-16T02:44:38.974-05:00  INFO 14024 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-16T02:44:39.058-05:00  INFO 14024 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-16T02:44:39.492-05:00  WARN 14024 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-16T02:44:39.498-05:00  INFO 14024 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-16T02:44:39.806-05:00  INFO 14024 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-16T02:44:39.822-05:00  INFO 14024 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-16T02:44:39.932-05:00  WARN 14024 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-16T02:44:40.348-05:00  INFO 14024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cinestar'
+2023-04-16T02:44:40.358-05:00  INFO 14024 --- [main] com.cinestar.CineStarApplication         : Started CineStarApplication in 4.043 seconds (process running for 5.449)
